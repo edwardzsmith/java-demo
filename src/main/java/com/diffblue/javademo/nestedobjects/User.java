@@ -17,6 +17,9 @@ public class User {
     if (!order.hasItem()) {
       return false;
     }
+    if (order.outOfStock()) {
+      return false;
+    }
     return order.item.cost == item.cost;
   }
 

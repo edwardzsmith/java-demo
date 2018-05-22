@@ -17,6 +17,14 @@ public class Order {
   }
 
   /**
+   * Checks if item is in stock.
+   */
+  public boolean outOfStock() {
+      return false;
+    }
+  }
+
+  /**
    * Sets the item for this order.
    */
   public boolean setItem(Item item) {
