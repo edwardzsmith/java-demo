@@ -20,7 +20,7 @@ public class Order {
    * Checks if item is in stock.
    */
   public boolean outOfStock() {
-      return false;
+    return false;
   }
 
   /**
