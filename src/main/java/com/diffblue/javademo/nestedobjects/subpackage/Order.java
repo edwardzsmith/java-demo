@@ -21,7 +21,6 @@ public class Order {
    */
   public boolean outOfStock() {
       return false;
-    }
   }
 
   /**
